@@ -1,0 +1,45 @@
+.side-nav {
+    display: block;
+    width: 200px; /* Adjust the width as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #222;
+    padding-top: 50px; /* Adjust the padding as needed */
+}
+
+.side-nav li {
+    width: 180px;
+    padding: 5px 5px 5px 20px;
+    font-size: larger;
+}
+
+.side-nav li a {
+    padding: 15px 5px;
+}
+
+/* Ensure the main content doesn't overlap the side-nav */
+.container {
+    margin-left: 250px; /* Adjust this value to match the side-nav width */
+}
+
+/* Ensure the header nav doesn't overlap the main content */
+main {
+    margin-top: 70px; 
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 160px;
+    top: 0;
+    width: 250px;
+}
+
+.divider {
+    background-color: #ffffff;
+    margin: 0px 0px 0px 25px;
+    padding: 0;
+    width: 120px;
+    height: .08em;
+}

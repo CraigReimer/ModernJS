@@ -1,0 +1,1 @@
+Note:  The Google Map, as in the book, will not be used since Google requires adding a credit card number when setting up an account.  Instead we will use the MapQuest API.  For the js10b.html and js10b.js files, follow the directions in the provided PDF file.

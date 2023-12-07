@@ -1,0 +1,103 @@
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 1020px;
+   background-color:lightsteelblue;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+header {
+   background-color:purple;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+}
+
+/* main content */
+article {
+   width: 1020px;
+   height: 650px;
+   text-align: left;
+   background-color:blanchedalmond;
+   position: relative;
+   padding-top: 10px;
+}
+
+article h2 {
+   font-weight: normal;
+   font-size: 2em;
+   padding: 20px 0 10px 0;
+   text-align: center;
+   margin: 0;
+}
+
+blockquote {
+   width: 760px;
+   height: 500px;
+   padding: 40px;
+   display: block;
+   font-size: 3em;
+   line-height: 1.4;
+   margin: 5px auto;
+   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+   border: 15px solid transparent;
+   border-image: linear-gradient(to bottom right, blue, red, yellow) 20%; 
+}
+
+blockquote p {
+	font-size: .7em;
+	font-style: italic;
+	font-weight: bold;
+	color: purple;
+	margin-top: 1em;
+}
+
+blockquote small {
+	font-size: .3em;
+	font-style: italic;
+	font-weight: 400;
+}
+   
+
